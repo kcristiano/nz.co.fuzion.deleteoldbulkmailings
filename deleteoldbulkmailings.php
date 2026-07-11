@@ -18,7 +18,6 @@ function deleteoldbulkmailings_civicrm_config(&$config) {
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_xmlMenu
  */
 function deleteoldbulkmailings_civicrm_xmlMenu(&$files) {
-  _deleteoldbulkmailings_civix_civicrm_xmlMenu($files);
 }
 
 /**
@@ -36,7 +35,6 @@ function deleteoldbulkmailings_civicrm_install() {
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_postInstall
  */
 function deleteoldbulkmailings_civicrm_postInstall() {
-  _deleteoldbulkmailings_civix_civicrm_postInstall();
 }
 
 /**
@@ -45,7 +43,6 @@ function deleteoldbulkmailings_civicrm_postInstall() {
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_uninstall
  */
 function deleteoldbulkmailings_civicrm_uninstall() {
-  _deleteoldbulkmailings_civix_civicrm_uninstall();
 }
 
 /**
@@ -63,7 +60,6 @@ function deleteoldbulkmailings_civicrm_enable() {
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_disable
  */
 function deleteoldbulkmailings_civicrm_disable() {
-  _deleteoldbulkmailings_civix_civicrm_disable();
 }
 
 /**
@@ -72,7 +68,7 @@ function deleteoldbulkmailings_civicrm_disable() {
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_upgrade
  */
 function deleteoldbulkmailings_civicrm_upgrade($op, CRM_Queue_Queue $queue = NULL) {
-  return _deleteoldbulkmailings_civix_civicrm_upgrade($op, $queue);
+  return;
 }
 
 /**
@@ -84,7 +80,6 @@ function deleteoldbulkmailings_civicrm_upgrade($op, CRM_Queue_Queue $queue = NUL
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_managed
  */
 function deleteoldbulkmailings_civicrm_managed(&$entities) {
-  _deleteoldbulkmailings_civix_civicrm_managed($entities);
 }
 
 /**
@@ -97,7 +92,6 @@ function deleteoldbulkmailings_civicrm_managed(&$entities) {
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_caseTypes
  */
 function deleteoldbulkmailings_civicrm_caseTypes(&$caseTypes) {
-  _deleteoldbulkmailings_civix_civicrm_caseTypes($caseTypes);
 }
 
 /**
@@ -111,7 +105,6 @@ function deleteoldbulkmailings_civicrm_caseTypes(&$caseTypes) {
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_angularModules
  */
 function deleteoldbulkmailings_civicrm_angularModules(&$angularModules) {
-  _deleteoldbulkmailings_civix_civicrm_angularModules($angularModules);
 }
 
 /**
@@ -120,9 +113,7 @@ function deleteoldbulkmailings_civicrm_angularModules(&$angularModules) {
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_alterSettingsFolders
  */
 function deleteoldbulkmailings_civicrm_alterSettingsFolders(&$metaDataFolders = NULL) {
-  _deleteoldbulkmailings_civix_civicrm_alterSettingsFolders($metaDataFolders);
 }
-
 
 /**
  * Implements hook_civicrm_navigationMenu().
